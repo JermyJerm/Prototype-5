@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8699103250699231550}
   - component: {fileID: 812459489054535971}
   - component: {fileID: 54923769479918302}
+  - component: {fileID: 65824270862195480}
   m_Layer: 0
   m_Name: Bad 1
-  m_TagString: Untagged
+  m_TagString: Bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +92,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0105fc0eafb4943f59f07dc82537a690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointValue: -5
+  pointValue: -15
+  explosionParticle: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb,
+    type: 3}
 --- !u!54 &54923769479918302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -108,3 +111,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65824270862195480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8713510378205682982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.42912176, y: 0.5520757, z: 0.46483076}
+  m_Center: {x: 0, y: -0.02673658, z: -0.023982435}
